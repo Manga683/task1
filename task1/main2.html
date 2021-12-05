@@ -1,0 +1,110 @@
+<html>
+
+<head>
+    <style>
+        body {
+            font-size: 20px;
+            color: white;
+            background-size: cover;
+        }
+
+        .box {
+            width: 900px;
+            float: right;
+            border: 1px solid none;
+        }
+
+        .box ul li {
+            width: 120px;
+            float: left;
+            margin: 10px auto;
+            text-align: center;
+        }
+
+
+        .wd {
+            width: 400px;
+            height: 600px;
+            background-color: rgba(5, 1, 1, 0.904);
+            background-image: url("back1.jpg");
+            opacity: 0.8;
+            padding: 95px;
+        }
+
+        .wd h1 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: 300px;
+        }
+
+        .wd h4 {
+            text-align: justify;
+            color: brown;
+            font-weight: 100px;
+        }
+
+        .wd h2 {
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: normal;
+            margin: 40px auto;
+        }
+
+        .opt form,
+        input[type="button"] {
+            background-color: white;
+            color: white;
+            /* padding:10px;*/
+            margin: -14px auto;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+            font-size: 16px;
+        }
+
+        form,
+        input[type="button"] {
+            animation: glowing 300ms infinite;
+            font-weight: 500%;
+        }
+
+        @keyframes glowing {
+            0% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: orange;
+            }
+
+            100% {
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="box">
+        <div class="mainmenu">
+            <a href="courseslist.html">courses</a>&nbsp;
+            <a href=""> fees</a>&nbsp;
+            <a href=""> FAQ</a>&nbsp;
+            <a href=""> Contact</a>
+            <img src="main.jpg" width="900" height="700">
+
+        </div>
+    </div>
+    <div class="wd">
+        <h1> Welcome to Manga virtual courses</h1><br><br>
+
+        <div class="opt">
+            <form action="" method="post">
+                <input type="button" value="REGISTER NOW">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
